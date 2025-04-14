@@ -1,0 +1,116 @@
+<!---INDEX HTML FILE--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SUV Cars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2 id="main-heading">SUV Cars</h2>
+
+    <p class="description">SUVs (Sport Utility Vehicles) combine comfort, power, and off-road capability. They are perfect for families, adventure lovers, and those who appreciate a commanding road presence.</p>
+    <img src="https://images.pexels.com/photos/215528/pexels-photo-215528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="SUV Car" class="suv-img" width="400" height="400">
+    <table class="suv-table">
+        <thead>
+            <tr>
+                <th>Model</th>
+                <th>Year</th>
+                <th>Engine</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Toyota Land Cruiser</td>
+                <td>2005</td>
+                <td>4.7L V8</td>
+            </tr>
+            <tr>
+                <td>Honda CR-V</td>
+                <td>2010</td>
+                <td>2.4L I4</td>
+            </tr>
+            <tr>
+                <td>Ford Explorer</td>
+                <td>2015</td>
+                <td>3.5L V6</td>
+            </tr>
+            <tr>
+                <td>Kia Sorento</td>
+                <td>2020</td>
+                <td>2.5L Turbo</td>
+            </tr>
+            <tr>
+                <td>Hyundai Palisade</td>
+                <td>2023</td>
+                <td>3.8L V6</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <footer>
+        <p>&copy; 2025. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+<!--EXTERNAL FILE-->
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: bisque;
+    color: black;
+    margin: 20px;
+    padding: 0;
+}
+
+#main-heading {
+    color: blue;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+}
+
+.suv-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.suv-table th, .suv-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.suv-table th {
+    background-color: green;
+    color: white;
+}
+
+.suv-img {
+    display: block;
+    margin: 30px auto 10px auto;
+    border: 5px solid red;
+    border-radius: 10px;
+    width: 300px;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    margin-top: 20px;
+    padding: 10px;
+}
